@@ -1,0 +1,274 @@
+/* .call-to-action {
+  background-color: green;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70vh;
+}
+
+@media (min-width: 768px) {
+  .call {
+    flex-direction: row;
+  }
+}
+
+.call img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+}
+
+@media (min-width: 768px) {
+  .call img {
+    width: 50%;
+    position: unset;
+  }
+} */
+.m{
+    color:green;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex button {
+  border: none;
+  outline: none;
+  width: 45%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .flex button {
+    width: 45%;
+    padding: 12px;
+  }
+}
+
+.flex .solid {
+  background-color: #00b87c;
+  color: #fff;
+}
+
+.flex .outlined {
+  border: 1px solid #00b87c;
+  color: #00b87c;
+  background-color: #fff;
+}
+
+.call-to-action .text {
+  max-width: 500px;
+}
+
+.trusted-by {
+  padding: 20px 0;
+  margin-top: 70px;
+  margin-bottom: 200px;
+}
+
+.trusted-by h1 {
+  font-size: 24px;
+}
+
+.trusted-by img {
+  max-width: 100px;
+}
+
+.trusted-by .grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+  .trusted-by .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.blue {
+  background-color: #1a61db;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+}
+
+.image-container,
+.green {
+  padding: 40px;
+}
+
+.green {
+  background-color: #00b87c;
+  color: #fff;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .green {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-show .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.icon-show {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  margin-bottom: 85px;
+}
+
+.icon-div {
+  text-align: left;
+}
+
+.icon img {
+  height: 60px;
+}
+
+.red {
+  background-color: #dc1aa3;
+  color: #fff;
+  /* padding: 20px 0; */
+  position: relative;
+  min-height: 50vh;
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.white h1 {
+  color: #00b87c;
+}
+
+@media (min-width: 768px) {
+  .red {
+    height: 90vh;
+  }
+
+  .white {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    width: 45%;
+    bottom: 15%;
+  }
+
+  .image-container-2 {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    top: 15%;
+    bottom: 0;
+  }
+
+  .image-container-2 img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.select {
+  padding: 20px 0;
+}
+
+.question-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #ccc solid;
+  padding: 5px 0;
+}
+
+.question-dropdown:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.try-for-free {
+  background-image: url("./talk-to-sales.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.button-div {
+  margin: 20px 0;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-div button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 45%;
+}
+
+.button-div button.filled {
+  background-color: #fff;
+  color: #00b87c;
+  border-radius: 5px;
+}
+
+.button-div button.outlined {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.con{
+    height: 40vh;
+}
+.cd{
+    color: gray;
+}
